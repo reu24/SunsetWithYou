@@ -34,6 +34,8 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"MainSceneWithoutGirl","path":"sprites/MainSceneWithoutGirl/MainSceneWithoutGirl.yy",},},
+    {"id":{"name":"MainScene","path":"sprites/MainScene/MainScene.yy",},},
     {"id":{"name":"Logo","path":"sprites/Logo/Logo.yy",},},
     {"id":{"name":"Sunset","path":"rooms/Sunset/Sunset.yy",},},
   ],
