@@ -83,42 +83,53 @@ function Idea() constructor {
 		_random_ideas = ds_queue_create();
 		_moment_ideas = ds_queue_create();
 		
-		add_romantic("Should I hold her hand?");
-		add_romantic("Huh, it's just us two");
-		add_romantic("ro3");
-		add_romantic("ro4");
-		add_romantic("ro5");
-		add_romantic("ro6");
-		add_romantic("ro7");
-		add_romantic("ro8");
+		add_romantic("Huh, it's just us two.");
+		add_romantic("Should I talk to her?");
+		add_romantic("She looks kinda cute.");
+		add_romantic("Should I sit next to her?");
+		add_romantic("I want to talk to her.");
+		add_romantic("What should I say?");
+		add_romantic("I'm the guy. I should make the move.");
+		add_romantic("Should I say 'Hi'?");
+		add_romantic("I will talk to her.");
 		
-		add_doubtful("d1");
-		add_doubtful("d2");
-		add_doubtful("d3");
-		add_doubtful("d4");
-		add_doubtful("d5");
-		add_doubtful("d6");
-		add_doubtful("d7");
-		add_doubtful("d8");
+		add_doubtful("I shouldn't just stand here.");
+		add_doubtful("Why am I even here? I should go home.");
+		add_doubtful("She doesn't even notice me.");
+		add_doubtful("What is this weird girl even doing?");
+		add_doubtful("Why am I still here?");
+		add_doubtful("I should just go away.");
+		add_doubtful("Silly me. I'm heading off.");
+		add_doubtful("Bye.");
 		
-		add_random("ra1");
-		add_random("ra2");
-		add_random("ra3");
-		add_random("ra4");
-		add_random("ra5");
-		add_random("ra6");
-		add_random("ra7");
-		add_random("ra8");
-		add_random("ra9");
+		add_random("I haven't studied for the exam.");
+		add_random("What should I eat tonight?");
+		add_random("It's already this late...");
+		add_random("I have an exam tomorrow.");
+		add_random("I think I need to cook myself...");
+		add_random("What will happen if I don't pass the exam?");
+		add_random("What will the future be like?");
+		add_random("When does the last train go?");
+		add_random("What should I do in my life?");
 		
-		add_moment("m1");
-		add_moment("m2");
-		add_moment("m3");
-		add_moment("m4");
-		add_moment("m5");
-		add_moment("m6");
-		add_moment("m7");
-		add_moment("m8");
-		add_moment("m9");
+		add_moment("This sunset is so nice.");
+		add_moment("I shouldn't think so much.");
+		add_moment("Certainty doesn't exist and that's fine.");
+		add_moment("The cold breeze feels good.");
+		add_moment("I did enought thinking.");
+		add_moment("I should focus on breathing.");
+		add_moment("Maybe I should just cherrish this moment.");
 	}
 }
+
+// It was on a seamingly normal summer day... when I noticed a girl sitting all alone at the beach. I was amazed at how absorbed she was by sunset. It almost seemed like she was enchanted by the view.
+/*And so I left the beach.
+
+I said: "Umm. Hi". But it was so quiet that she didn't even hear me.
+
+...
+...
+It was so much fun just sitting next to her and looking at the sunset. I should probably do this again some time later.
+"The sunset is truly amazing", I suddendly hear her say, "Although you never know what will happen tomorrow, the sun will set regardless. And so will your problems eventually."
+
+*/
