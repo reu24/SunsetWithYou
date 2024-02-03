@@ -1,7 +1,7 @@
 idea = new Idea();
 idea.initialize();
 
-time_source = time_source_create(time_source_game, 1.2, time_source_units_seconds, function() {
+time_source = time_source_create(time_source_game, 1, time_source_units_seconds, function() {
 	if (idea.should_make_idea()) {
 		new_idea = idea.get_random_idea();
 		if (is_undefined(new_idea.idea)) {

@@ -55,7 +55,7 @@ function Idea() constructor {
 		}
 		
 		var _ignored_percentage = _ignored / (_ignored + _not_ignored);
-		return random(100) > _ignored_percentage * 100;
+		return random(100) > min(_ignored_percentage * 100, 35);
 	}
 	
 	// can return idea = undefined! then the game is over.
@@ -63,17 +63,17 @@ function Idea() constructor {
 		var _ignored_percentage = (_ignored / 2) / (_ignored + _not_ignored);
 		var _total = _romantic + _doubtful + _moment + _random;
 		var _moment_percentage = _moment / _total;
-		var _r = random(1000) + 50;
+		var _r = random(75) + 15;
 		idea_struct = self;
+		show_debug_message(string_concat("_r: ", _r));
+		show_debug_message(_ignored_percentage * 100);
+		show_debug_message(_moment_percentage * 100);
 		if (_ignored_percentage * 100 + _moment_percentage * 100 > _r) {
 			return {idea_struct: idea_struct, type: "m", idea: ds_queue_dequeue(_moment_ideas)};
 		}
 		
 		_total -= _moment;
 		_r = random(100);
-		show_debug_message(_r);
-		show_debug_message(_romantic / _total * 100);
-		show_debug_message("\n");
 		if (_r < _romantic / _total * 100) return {idea_struct: idea_struct, type: "ro", idea: ds_queue_dequeue(_romantic_ideas)};
 		if (_r < _doubtful / _total * 100 + _romantic / _total * 100) return {idea_struct: idea_struct, type: "d", idea: ds_queue_dequeue(_doubtful_ideas)};
 		return {idea_struct: idea_struct, type: "ra", idea: ds_queue_dequeue(_random_ideas)};
@@ -88,13 +88,17 @@ function Idea() constructor {
 		
 		add_romantic("Huh, it's just us two.");
 		add_romantic("Should I talk to her?");
-		add_romantic("She looks kinda cute.");
+		add_romantic("She's so pretty.");
 		add_romantic("Should I sit next to her?");
 		add_romantic("I want to talk to her.");
 		add_romantic("What should I say?");
-		add_romantic("I'm the guy. I should make the move.");
 		add_romantic("Should I say 'Hi'?");
-		add_romantic("I will talk to her.");
+		add_romantic("I should be braver.");
+		add_romantic("Can I watch the sunset with her?");
+		add_romantic("Talking to her shouldn't be such a big of a deal, right?");
+		add_romantic("She looks kinda cute.");
+		add_romantic("Can I get close to her?");
+		add_romantic("What would she feel if I talked with her?");
 		
 		add_doubtful("I shouldn't just stand here.");
 		add_doubtful("Why am I even here? I should go home.");
@@ -104,6 +108,11 @@ function Idea() constructor {
 		add_doubtful("I should just go away.");
 		add_doubtful("Silly me. I'm should be heading off.");
 		add_doubtful("There's no point in staying.");
+		add_doubtful("She surely won't care about me.");
+		add_doubtful("What am I? A creep?");
+		add_doubtful("I'm ugly");
+		add_doubtful("What am I doing?");
+		add_doubtful("There's no way I'll achieve anything here");
 		add_doubtful("I'll just go.");
 		
 		add_random("I haven't studied for the exam.");
