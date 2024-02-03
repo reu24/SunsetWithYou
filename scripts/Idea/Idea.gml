@@ -4,13 +4,13 @@ function Idea() constructor {
 	_random_ideas = ds_queue_create();
 	_moment_ideas = ds_queue_create();
 	
-	_romantic = 20;
-	_doubtful = 20;
-	_random = 20;
-	_moment = 20;
+	_romantic = 1;
+	_doubtful = 1;
+	_random = 1;
+	_moment = 1;
 	
-	_ignored = 40;
-	_not_ignored = 40;
+	_ignored = 2;
+	_not_ignored = 2;
 	
 	add_romantic = function(_idea) {
 		ds_queue_enqueue(_romantic_ideas, _idea);
@@ -71,6 +71,9 @@ function Idea() constructor {
 		
 		_total -= _moment;
 		_r = random(100);
+		show_debug_message(_r);
+		show_debug_message(_romantic / _total * 100);
+		show_debug_message("\n");
 		if (_r < _romantic / _total * 100) return {idea_struct: idea_struct, type: "ro", idea: ds_queue_dequeue(_romantic_ideas)};
 		if (_r < _doubtful / _total * 100 + _romantic / _total * 100) return {idea_struct: idea_struct, type: "d", idea: ds_queue_dequeue(_doubtful_ideas)};
 		return {idea_struct: idea_struct, type: "ra", idea: ds_queue_dequeue(_random_ideas)};
@@ -106,7 +109,7 @@ function Idea() constructor {
 		add_random("What should I eat tonight?");
 		add_random("It's already this late...");
 		add_random("I have an exam tomorrow.");
-		add_random("I think I need to cook myself...");
+		add_random("I think I need to cook for myself...");
 		add_random("What will happen if I don't pass the exam?");
 		add_random("What will the future be like?");
 		add_random("When does the last train go?");

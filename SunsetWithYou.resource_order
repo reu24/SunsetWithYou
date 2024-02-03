@@ -18,7 +18,13 @@
   ],
   "ResourceOrderSettings": [
     {"name":"MainSceneWithoutGirl","order":2,"path":"sprites/MainSceneWithoutGirl/MainSceneWithoutGirl.yy",},
+    {"name":"PushyEnd","order":3,"path":"rooms/PushyEnd/PushyEnd.yy",},
+    {"name":"EndRoom","order":5,"path":"rooms/EndRoom/EndRoom.yy",},
+    {"name":"Intro","order":1,"path":"rooms/Intro/Intro.yy",},
+    {"name":"NotDoingAnythingEnd","order":4,"path":"rooms/NotDoingAnythingEnd/NotDoingAnythingEnd.yy",},
     {"name":"IdeaGenerator","order":1,"path":"objects/IdeaGenerator/IdeaGenerator.yy",},
+    {"name":"Typewriter","order":2,"path":"objects/Typewriter/Typewriter.yy",},
     {"name":"MainScene","order":1,"path":"sprites/MainScene/MainScene.yy",},
+    {"name":"GoodEnd","order":2,"path":"rooms/GoodEnd/GoodEnd.yy",},
   ],
 }

@@ -1,0 +1,1 @@
+draw_text(room_width / 2  - string_width(msg) / 2, room_height / 2 - string_height(msg) / 2, string_copy(msg, 1, j));
