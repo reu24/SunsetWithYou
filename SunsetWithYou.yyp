@@ -42,6 +42,7 @@
     {"id":{"name":"Idea","path":"scripts/Idea/Idea.yy",},},
     {"id":{"name":"Intro","path":"rooms/Intro/Intro.yy",},},
     {"id":{"name":"NotDoingAnythingEnd","path":"rooms/NotDoingAnythingEnd/NotDoingAnythingEnd.yy",},},
+    {"id":{"name":"BackgroundMusic","path":"sounds/BackgroundMusic/BackgroundMusic.yy",},},
     {"id":{"name":"IdeaGenerator","path":"objects/IdeaGenerator/IdeaGenerator.yy",},},
     {"id":{"name":"Typewriter","path":"objects/Typewriter/Typewriter.yy",},},
     {"id":{"name":"MainScene","path":"sprites/MainScene/MainScene.yy",},},
@@ -50,8 +51,8 @@
     {"id":{"name":"Sunset","path":"rooms/Sunset/Sunset.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Sunset","path":"rooms/Sunset/Sunset.yy",},},
     {"roomId":{"name":"Intro","path":"rooms/Intro/Intro.yy",},},
+    {"roomId":{"name":"Sunset","path":"rooms/Sunset/Sunset.yy",},},
     {"roomId":{"name":"GoodEnd","path":"rooms/GoodEnd/GoodEnd.yy",},},
     {"roomId":{"name":"PushyEnd","path":"rooms/PushyEnd/PushyEnd.yy",},},
     {"roomId":{"name":"NotDoingAnythingEnd","path":"rooms/NotDoingAnythingEnd/NotDoingAnythingEnd.yy",},},
