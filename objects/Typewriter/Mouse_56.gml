@@ -3,6 +3,7 @@ var _text_height = string_height(msg);
 
 if point_in_rectangle(mouse_x, mouse_y, x - 7, y - 7, x + _text_width + 7, y + _text_height + 7)
 {
+	audio_stop_sound(sound);
 	if (j > string_length(msg)) {
 		if (++i == array_length(msgs)) {
 			time_source_stop(time_source);
