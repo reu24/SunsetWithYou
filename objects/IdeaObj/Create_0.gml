@@ -1,3 +1,5 @@
+alpha = 1;
+
 start_left = irandom(1) == 0;
 if (!start_left) {
 	x = room_width;

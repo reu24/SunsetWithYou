@@ -63,7 +63,7 @@ function Idea() constructor {
 		var _ignored_percentage = (_ignored / 2) / (_ignored + _not_ignored);
 		var _total = _romantic + _doubtful + _moment + _random;
 		var _moment_percentage = _moment / _total;
-		var _r = random(90) + 30;
+		var _r = random(70) + 30;
 		idea_struct = self;
 		if (_ignored_percentage * 100 + _moment_percentage * 100 > _r) {
 			return {idea_struct: idea_struct, type: "m", idea: ds_queue_dequeue(_moment_ideas)};

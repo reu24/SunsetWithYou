@@ -34,12 +34,14 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"Type","path":"sounds/Type/Type.yy",},},
     {"id":{"name":"MainSceneWithoutGirl","path":"sprites/MainSceneWithoutGirl/MainSceneWithoutGirl.yy",},},
     {"id":{"name":"IdeaObj","path":"objects/IdeaObj/IdeaObj.yy",},},
     {"id":{"name":"PushyEnd","path":"rooms/PushyEnd/PushyEnd.yy",},},
     {"id":{"name":"IdeaFont","path":"fonts/IdeaFont/IdeaFont.yy",},},
-    {"id":{"name":"EndRoom","path":"rooms/EndRoom/EndRoom.yy",},},
     {"id":{"name":"Idea","path":"scripts/Idea/Idea.yy",},},
+    {"id":{"name":"FadeFromSpriteEffect","path":"objects/FadeFromSpriteEffect/FadeFromSpriteEffect.yy",},},
+    {"id":{"name":"Click","path":"sounds/Click/Click.yy",},},
     {"id":{"name":"Intro","path":"rooms/Intro/Intro.yy",},},
     {"id":{"name":"NotDoingAnythingEnd","path":"rooms/NotDoingAnythingEnd/NotDoingAnythingEnd.yy",},},
     {"id":{"name":"BackgroundMusic","path":"sounds/BackgroundMusic/BackgroundMusic.yy",},},
@@ -47,7 +49,9 @@
     {"id":{"name":"Typewriter","path":"objects/Typewriter/Typewriter.yy",},},
     {"id":{"name":"MainScene","path":"sprites/MainScene/MainScene.yy",},},
     {"id":{"name":"Logo","path":"sprites/Logo/Logo.yy",},},
+    {"id":{"name":"FadeFromBlackEffect","path":"objects/FadeFromBlackEffect/FadeFromBlackEffect.yy",},},
     {"id":{"name":"GoodEnd","path":"rooms/GoodEnd/GoodEnd.yy",},},
+    {"id":{"name":"ClickFx","path":"particles/ClickFx/ClickFx.yy",},},
     {"id":{"name":"Sunset","path":"rooms/Sunset/Sunset.yy",},},
   ],
   "RoomOrderNodes": [
@@ -56,7 +60,6 @@
     {"roomId":{"name":"GoodEnd","path":"rooms/GoodEnd/GoodEnd.yy",},},
     {"roomId":{"name":"PushyEnd","path":"rooms/PushyEnd/PushyEnd.yy",},},
     {"roomId":{"name":"NotDoingAnythingEnd","path":"rooms/NotDoingAnythingEnd/NotDoingAnythingEnd.yy",},},
-    {"roomId":{"name":"EndRoom","path":"rooms/EndRoom/EndRoom.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

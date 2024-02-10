@@ -8,13 +8,15 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_5A8E7F1E","path":"rooms/NotDoingAnythingEnd/NotDoingAnythingEnd.yy",},
+    {"name":"inst_DCE63F0","path":"rooms/NotDoingAnythingEnd/NotDoingAnythingEnd.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A8E7F1E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Typewriter","path":"objects/Typewriter/Typewriter.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Typewriter","path":"objects/Typewriter/Typewriter.yy",},"propertyId":{"name":"msgs","path":"objects/Typewriter/Typewriter.yy",},"value":"There's not much to do here. I should just study for my exam. And so I left the beach.",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Typewriter","path":"objects/Typewriter/Typewriter.yy",},"propertyId":{"name":"msgs","path":"objects/Typewriter/Typewriter.yy",},"value":"There's not much to do here. I should just study for my exam. And so I left the beach.|Ending Nr. 1/3. Click on the text to restart.",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_DCE63F0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"FadeFromSpriteEffect","path":"objects/FadeFromSpriteEffect/FadeFromSpriteEffect.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

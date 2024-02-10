@@ -19,6 +19,7 @@ time_source = time_source_create(time_source_game, 1.2, time_source_units_second
 			}
 		}
 		else {
+			new_idea.generator = self;
 			instance_create_layer(0, 0, "Instances", IdeaObj, new_idea);
 		}
 	}

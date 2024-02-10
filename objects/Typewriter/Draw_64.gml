@@ -1,1 +1,13 @@
-draw_text(room_width / 2  - string_width(msg) / 2, room_height / 2 - string_height(msg) / 2, string_copy(msg, 1, j));
+draw_set_alpha(1);
+var displayedMessage = string_copy(msg, 1, j);
+draw_text(x, y, displayedMessage);
+
+var _text_width = string_width(displayedMessage);
+var _text_height = string_height(displayedMessage);
+if (j > string_length(msg) && point_in_rectangle(mouse_x, mouse_y, x, y, x + _text_width, y + _text_height)) {
+	draw_line(x, y + _text_height, x + _text_width, y + _text_height);
+	window_set_cursor(cr_handpoint);
+}
+else {
+	window_set_cursor(cr_default);
+}

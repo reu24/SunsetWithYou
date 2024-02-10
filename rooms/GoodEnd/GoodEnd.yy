@@ -8,13 +8,15 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_59ACA5F","path":"rooms/GoodEnd/GoodEnd.yy",},
+    {"name":"inst_238E04FC","path":"rooms/GoodEnd/GoodEnd.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_59ACA5F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Typewriter","path":"objects/Typewriter/Typewriter.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Typewriter","path":"objects/Typewriter/Typewriter.yy",},"propertyId":{"name":"msgs","path":"objects/Typewriter/Typewriter.yy",},"value":"It was so much fun just sitting next to her and looking at the sunset. I should probably do this again some time later.|'The sunset is truly amazing'|I suddendly hear her say.|'Although you never know what will happen tomorrow, the sun will set regardless. And so will your problems eventually.'",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Typewriter","path":"objects/Typewriter/Typewriter.yy",},"propertyId":{"name":"msgs","path":"objects/Typewriter/Typewriter.yy",},"value":"It was so much fun just sitting next to her and looking at the sunset. I should probably do this again some time later.|'The sunset is truly amazing'|I suddendly hear her say.|'Although you never know what will happen tomorrow, the sun will set regardless. And so will your problems eventually.'|Ending Nr. 3/3. Click on the text to restart.",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_238E04FC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"FadeFromSpriteEffect","path":"objects/FadeFromSpriteEffect/FadeFromSpriteEffect.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
