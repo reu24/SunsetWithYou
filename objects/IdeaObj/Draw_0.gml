@@ -10,7 +10,7 @@ draw_text(x, y, idea);
 
 var _text_width = string_width(idea);
 var _text_height = string_height(idea);
-if (point_in_rectangle(mouse_x, mouse_y, x, y, x + _text_width, y + _text_height)) {
+if (point_in_rectangle(mouse_x, mouse_y, x - 7, y - 7, x + _text_width + 7, y + _text_height + 7)) {
 	draw_line(x, y + _text_height, x + _text_width, y + _text_height);
 	window_set_cursor(cr_handpoint);
 	generator.hovering = true;
